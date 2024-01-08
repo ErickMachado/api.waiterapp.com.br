@@ -1,0 +1,13 @@
+{
+  "author": "Erick Machado <erick.gsmachado@gmail.com>",
+  "bugs": "https://github.com/ErickMachado/api.waiterapp.com.br/issues",
+  "description": "API REST para controle em tempo real de pedidos em restaurantes. Feito com Node.js, TypeScript e PostgreSQL.",
+  "license": "MIT",
+  "name": "api.waiterapp.com.br",
+  "readme": "https://github.com/ErickMachado/api.waiterapp.com.br?tab=readme-ov-file",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ErickMachado/api.waiterapp.com.br.git"
+  },
+  "private": true
+}
