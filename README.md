@@ -1,7 +1,7 @@
-![Capa do projeto](.github/assets/cover.png)
+![Project cover](.github/assets/cover.png)
 
 ---
 
 <p align="center">
-Feito com ❤️ em São José dos Campos
+Made with ❤️ in Brazil
 </p>

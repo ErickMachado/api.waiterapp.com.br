@@ -1,7 +1,7 @@
 {
   "author": "Erick Machado <erick.gsmachado@gmail.com>",
   "bugs": "https://github.com/ErickMachado/api.waiterapp.com.br/issues",
-  "description": "API REST para controle em tempo real de pedidos em restaurantes. Feito com Node.js, TypeScript e PostgreSQL.",
+  "description": "REST API for real time orders control in restaurants. Made with Node.js, TypeScript and PostgreSQL.",
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
