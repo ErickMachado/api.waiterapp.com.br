@@ -1,0 +1,14 @@
+{
+  "arrowParens": "always",
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@tests/(.*)$",
+    "^@/(.*)$",
+    "^[./]"
+  ],
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "useTabs": false
+}

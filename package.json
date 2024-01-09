@@ -5,7 +5,9 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
-    "husky": "^8.0.3"
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1"
   },
   "license": "MIT",
   "name": "api.waiterapp.com.br",
@@ -16,6 +18,8 @@
     "url": "git@github.com:ErickMachado/api.waiterapp.com.br.git"
   },
   "scripts": {
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write",
     "lint:commit": "commitlint --edit $1",
     "prepare": "husky install"
   }
