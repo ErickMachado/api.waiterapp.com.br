@@ -4,14 +4,19 @@
   "description": "API REST para controle em tempo real de pedidos em restaurantes. Feito com Node.js, TypeScript e PostgreSQL.",
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
-    "@commitlint/config-conventional": "^18.4.4"
+    "@commitlint/config-conventional": "^18.4.4",
+    "husky": "^8.0.3"
   },
   "license": "MIT",
   "name": "api.waiterapp.com.br",
+  "private": true,
   "readme": "https://github.com/ErickMachado/api.waiterapp.com.br?tab=readme-ov-file",
   "repository": {
     "type": "git",
     "url": "git@github.com:ErickMachado/api.waiterapp.com.br.git"
   },
-  "private": true
+  "scripts": {
+    "lint:commit": "commitlint --edit $1",
+    "prepare": "husky install"
+  }
 }
