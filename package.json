@@ -1,0 +1,9 @@
+{
+  "author": "Erick Machado <erick.gsmachado@gmail.com>",
+  "bugs": "https://github.com/ErickMachado/api.waiterapp.com.br/issues/new?template=Blank+issue",
+  "description": "Ferramenta para gerenciamento de pedidos em restaurantes, bares e cafés. Versão expandida do desafio do curso JStack.",
+  "homepage": "https://github.com/ErickMachado/api.waiterapp.com.br?tab=readme-ov-file",
+  "license": "https://github.com/ErickMachado/api.waiterapp.com.br?tab=MIT-1-ov-file",
+  "name": "@waiterapp/api",
+  "private": true
+}
